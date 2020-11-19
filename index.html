@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body id="body">
+    <h1 id="title">Please complete the survey</h1>
+    <p id="description">This is a survery about your favorite football team</p>
+    <form action="" id="survey-form">
+        <label for="name" id="name-label">Name</label>
+        <input type="name" id="name" placeholder="Enter your name" required>
+        <label for="email" id="email-label">Email</label>
+        <input type="email" id="email" placeholder="Enter your email" required>
+        <label for="number" id="number-label">Age</label>
+        <input type="number" id="number" min="10" max="99" value="18" placeholder="Enter your age">
+
+        <label for="dropdown">Choose your favorite football club</label>
+        <select name="dropdown" id="dropdown">
+            <option value="realmadrid">Real Madrid</option>
+            <option value="barcelona">Barcelona</option>
+            <option value="liverpool">Liverpool</option>
+            <option value="manunited">Manchester United</option>
+            <option value="bayern">Bayern Munich</option>
+            <option value="dortmund">Borussia Dortmund</option>
+        </select>
+
+        <div id="form-group">
+            <p>Are you a big fan?</p>
+            <input type="radio" name="form-group" value="definitely">
+                </label>Definitely <label>
+            <input type="radio" name="form-group" value="maybe">
+                </label>Maybe <label>  
+            <input type="radio" name="form-group" value="not-sure">
+                </label>Not sure <label>   
+        </div>
+
+        <div id="input-checkbox">
+            <p>What would you like to see at your favorite team?</p>
+            
+            <label><input type="checkbox" name="checkbox" value="more-offense">
+                More Offense</label>
+
+            <label><input type="checkbox" name="checkbox" value="more-defense">
+                More Defense</label>
+
+            <label><input type="checkbox" name="checkbox" value="new-coach">
+                New Coach</label>
+
+            <label><input type="checkbox" name="checkbox" value="new-transfers">
+                New Transfers</label>
+
+            <label><input type="checkbox" name="checkbox" value="new-management">
+                New Management</label>
+
+            <label><input type="checkbox" name="checkbox" value="cheaper-tickets">
+                Cheaper Tickets</label>
+
+            <label><input type="checkbox" name="checkbox" value="bigger-stadium">
+                Bigger Stadium</label>
+        </div>
+
+        <div id="comments">
+            <p>Any comments or suggestions?</p>
+            <textarea name="comments" cols="30" rows="10" placeholder="Enter your comment here..."></textarea>
+        </div>
+        <button type="submit" id="submit">Submit</button>
+    </form>
+</body>
+</html>

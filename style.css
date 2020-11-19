@@ -1,0 +1,38 @@
+#body{
+    font-family: 'Noto Sans KR', sans-serif;
+    background-image: url(https://i.ibb.co/dLhJ78J/luka-lojk-rtv-Dcvvvhb-U-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+#survey-form{
+    /* border: 8px solid blue; */
+    font-weight: bold;
+    color: black;
+    background-color: rgba(0, 128, 128, 0.8);
+    border-radius: 0.5%;
+    width: 500px;
+    min-width: 300px;
+    padding: 2.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+    
+    
+}
+
+#input-checkbox{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
